@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lemonchiffon;
+}
+.window{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:"Cormorant Infant";
+}
+.window h1{
+    width: 25%;
+    border-bottom: 1px solid;
+}
+.chess{
+    border: 5px solid black;
+    display: grid;
+    height:600px;
+    width: 40%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    /* justify-content: stretch; */
+}
+.black{
+    background-color: black;
+    height:100%;
+    width: 100%;
+}
+.white{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+.fa-chess-knight{
+    margin-top: 5%;
+    font-size: 60px;
+    color:  brown;
+}
+.fa-chess-pawn{
+    margin-top: 5%;
+    font-size: 60px;
+    color:  brown;
+}
+.fa-chess-queen{
+    margin-top: 5%;
+    font-size: 60px;
+    color:  brown;
+
+}
+.fa-chess-rook{
+    margin-top: 5%;
+    font-size: 60px;
+    color:  brown;
+
+}
+.fa-chess-bishop{
+    margin-top: 5%;
+    font-size: 60px;
+    color:  brown;
+
+}
+.fa-chess-king{
+    margin-top: 5%;
+    font-size: 60px;
+    color:  brown;
+
+}
+.player-bottom
+{
+    color: burlywood;
+}
